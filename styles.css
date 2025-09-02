@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Crimson Text', 'Georgia', 'Book Antiqua', serif;
-    line-height: 1.6;
+    font-size: 1.2rem;
+    line-height: 1.8;
     color: #e8e6e3;
     background: #0a0a0a;
     background-image: 
@@ -88,13 +89,13 @@ main {
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 2rem;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
 }
 
 .hero .subtitle {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 2rem;
     font-weight: 300;
     letter-spacing: 4px;
@@ -191,6 +192,8 @@ main {
 
 .project-card p {
     color: #b8b5b0;
+    font-size: 1.05rem;
+    line-height: 1.8;
 }
 
 #contact ul {
@@ -198,9 +201,15 @@ main {
     margin-top: 1rem;
 }
 
+#contact p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
 #contact li {
     margin-bottom: 0.5rem;
     color: #b8b5b0;
+    font-size: 1.1rem;
 }
 
 #contact a {
@@ -217,9 +226,10 @@ main {
 .about-content p,
 .profesor-content p {
     margin-bottom: 1.5rem;
-    line-height: 1.8;
+    line-height: 2;
     text-align: justify;
     color: #b8b5b0;
+    font-size: 1.1rem;
 }
 
 .contact-info {
