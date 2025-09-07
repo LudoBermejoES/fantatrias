@@ -24,8 +24,15 @@
     <main>
         <section class="hero" style="padding: 60px 0;">
             <div class="container">
-                <h1>Athman</h1>
-                <p class="subtitle">Narrador de leyendas oscuras</p>
+                <div class="hero-content">
+                    <div class="portrait">
+                        <img src="../img/athman.jpeg" alt="Retrato de Athman" class="writer-portrait">
+                    </div>
+                    <div class="hero-text">
+                        <h1>Athman</h1>
+                        <p class="subtitle">Narrador de leyendas oscuras</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -98,6 +105,38 @@
         .back-link {
             text-align: center;
             margin-top: 3rem;
+        }
+
+        .hero-content {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .portrait {
+            flex-shrink: 0;
+        }
+        
+        .writer-portrait {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ff6b6b;
+            filter: grayscale(100%);
+        }
+        
+        .hero-text {
+            flex: 1;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-content {
+                flex-direction: column;
+                text-align: center;
+            }
         }
     </style>
 </body>
