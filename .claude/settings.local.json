@@ -8,7 +8,8 @@
       "Bash(do cp writer-template.html $writer.html)",
       "Bash(done)",
       "Bash(dir:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "WebSearch"
     ],
     "deny": [],
     "ask": []
