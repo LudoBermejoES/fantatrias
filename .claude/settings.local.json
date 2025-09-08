@@ -9,7 +9,12 @@
       "Bash(done)",
       "Bash(dir:*)",
       "Bash(python:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(for file in C:/code/fantatrias/*.html C:/code/fantatrias/escritores/*.html)",
+      "Bash(do if [ -f \"$file\" ])",
+      "Bash(! grep -q \"menu-toggle\" \"$file\")",
+      "Bash(then echo \"$file\")",
+      "Bash(fi)"
     ],
     "deny": [],
     "ask": []
