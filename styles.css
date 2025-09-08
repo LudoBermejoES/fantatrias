@@ -332,6 +332,29 @@ a:visited:hover {
     border-bottom-color: #d155d1;
 }
 
+/* Book links - match header link styling */
+.writer-info p a {
+    color: #b8b5b0;
+    text-decoration: none;
+    transition: all 0.3s;
+    border-bottom: none;
+}
+
+.writer-info p a:hover {
+    color: #ff6b6b;
+    text-shadow: 0 0 10px #ff6b6b, 0 0 20px #ff6b6b;
+    border-bottom: none;
+}
+
+.writer-info p a:visited {
+    color: #b8b5b0;
+}
+
+.writer-info p a:visited:hover {
+    color: #ff6b6b;
+    text-shadow: 0 0 10px #ff6b6b, 0 0 20px #ff6b6b;
+}
+
 .back-link {
     text-align: center;
     margin-top: 3rem;
