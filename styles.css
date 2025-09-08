@@ -309,6 +309,29 @@ footer {
     font-style: italic;
 }
 
+/* General link styles */
+a {
+    color: #ff6b6b;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+
+a:hover {
+    color: #ff8c8c;
+    border-bottom-color: #ff6b6b;
+    text-shadow: 0 0 8px rgba(255, 107, 107, 0.4);
+}
+
+a:visited {
+    color: #d155d1;
+}
+
+a:visited:hover {
+    color: #e066e0;
+    border-bottom-color: #d155d1;
+}
+
 .back-link {
     text-align: center;
     margin-top: 3rem;
