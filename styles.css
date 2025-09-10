@@ -273,6 +273,8 @@ footer {
     object-fit: cover;
     border: 3px solid #ff6b6b;
     filter: grayscale(100%);
+    display: block;
+    margin: 0 auto;
 }
 
 .hero-text {
