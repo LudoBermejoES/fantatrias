@@ -14,7 +14,10 @@
       "Bash(do if [ -f \"$file\" ])",
       "Bash(! grep -q \"menu-toggle\" \"$file\")",
       "Bash(then echo \"$file\")",
-      "Bash(fi)"
+      "Bash(fi)",
+      "WebFetch(domain:tercerafundacion.net)",
+      "WebFetch(domain:www.goodreads.com)",
+      "WebFetch(domain:www.youtube.com)"
     ],
     "deny": [],
     "ask": []
