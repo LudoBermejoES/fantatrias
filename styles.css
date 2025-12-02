@@ -253,6 +253,45 @@ footer {
     font-size: 0.9rem;
 }
 
+/* Amigo Invisible Styles */
+.amigo-invisible-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.amigo-invisible-rules {
+    list-style: none;
+    padding: 0;
+}
+
+.amigo-invisible-rules li {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a0a3e 100%);
+    padding: 1.5rem 2rem 1.5rem 3rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #ff6b6b;
+    color: #b8b5b0;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    box-shadow: 0 5px 15px rgba(138, 43, 226, 0.2);
+    transition: all 0.3s;
+    position: relative;
+}
+
+.amigo-invisible-rules li::before {
+    content: '•';
+    color: #ff6b6b;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 1rem;
+    top: 1.5rem;
+}
+
+.amigo-invisible-rules li:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 20px rgba(255, 107, 107, 0.3);
+    border-left-color: #8b0000;
+}
+
 /* Writer Profile Styles */
 .hero-content {
     display: flex;
