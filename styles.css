@@ -266,7 +266,7 @@ footer {
 
 .amigo-invisible-rules li {
     background: linear-gradient(135deg, #1a1a1a 0%, #2a0a3e 100%);
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 2rem 1.5rem 3rem;
     margin-bottom: 1.5rem;
     border-left: 4px solid #ff6b6b;
     color: #b8b5b0;
@@ -282,8 +282,8 @@ footer {
     color: #ff6b6b;
     font-size: 1.5rem;
     position: absolute;
-    left: 0.5rem;
-    top: 1.3rem;
+    left: 1rem;
+    top: 1.5rem;
 }
 
 .amigo-invisible-rules li:hover {
